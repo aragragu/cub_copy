@@ -1,0 +1,40 @@
+Handle parsing,
+ray-casting,
+textures,
+Handle movement,
+minimap,
+doors,
+animated sprites,
+
+____________________________________________________________________________________________________
+Parsing:
+    Valid chars (this is aplied only for the map, cause the textures can hold i big range of characters)
+    check and store textures path
+    check and store the floor and ceiling color
+    check if the map is Valid
+    Space char validity
+    Map is indeed closed by walls
+
+
+
+
+
+
+now check if the first half of the config i stored and correct cause if 
+
+color_missing_ceiling_rgb  F 20,20,
+
+if the map has tabs is gets detected as error
+
+
+
+
+first i need to split the lines with whitespaces 
+then i need to check if the first index is start with NO or EA or WE or SO or F or C
+
+
+
+
+
+well now i have a problem in parsing colors 
+but what i came by was i a gonna check the index and split it then add it 
